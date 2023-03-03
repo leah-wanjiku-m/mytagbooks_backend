@@ -22,14 +22,10 @@ ActiveRecord::Schema.define(version: 2023_02_28_174744) do
 
   create_table "favourites", force: :cascade do |t|
     t.integer "book_id"
-    t.datetime "created_at", precision: 6, null: false
-    t.datetime "updated_at", precision: 6, null: false
-    t.index ["book_id"], name: "index_favourites_on_book_id"
   end
 
   create_table "users", force: :cascade do |t|
     t.string "name"
   end
 
-  add_foreign_key "favourites", "books"
 end
