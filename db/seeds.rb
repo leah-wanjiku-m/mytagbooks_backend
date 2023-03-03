@@ -1,7 +1,7 @@
-puts "🌱 Seeding..."
+# puts "🌱 Seeding..."
 
-# Create books
-Book.create(title: 'To Kill a Mockingbird', description: 'A Pulitzer Prize-winning novel by Harper Lee.', image_url: 'https://pixabay.com/images/id-3088775/')
+# # Create books
+ Book.create(title: 'To Kill a Mockingbird', description: 'A Pulitzer Prize-winning novel by Harper Lee.', image_url: 'https://pixabay.com/images/id-3088775/')
 Book.create(title: '1984', description: 'A dystopian novel by George Orwell.', image_url: 'https://pixabay.com/images/id-3088775/')
 Book.create(title: 'The Great Gatsby', description: 'A novel by F. Scott Fitzgerald.', image_url: 'https://pixabay.com/images/id-3088775/')
 Book.create(title: 'Pride and Prejudice', description: 'A novel by Jane Austen.', image_url: 'https://pixabay.com/images/id-3088775/')
