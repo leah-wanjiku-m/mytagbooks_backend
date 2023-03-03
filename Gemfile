@@ -30,13 +30,14 @@ gem "sinatra-activerecord", "~> 2.0"
 
 # Run common tasks from the command line
 # https://github.com/ruby/rake
-gem "rake", "~> 13.0"
+gem "rake"
 
 # Provides functionality to interact with a SQLite3 database
 gem "sqlite3", "~> 1.4"
 
 # Require all files in a folder
 gem "require_all", "~> 3.0"
+
 
 # These gems will only be used when we are running the application locally
 group :development do
@@ -47,7 +48,7 @@ group :development do
   gem "rerun"
 end
 
-group :production do
-    gem "pg"
-end
+# group :production do
+#     gem "pg"
+# end
 
