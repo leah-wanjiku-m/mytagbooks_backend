@@ -1,5 +1,4 @@
 require_relative "./config/environment"
-# run ApplicationController.run! port: 3000
 use Rack::Cors do
     allow do
       # origins '*' allows requests from ALL frontend origins
